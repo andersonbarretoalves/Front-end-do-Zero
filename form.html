@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form name="signup" autocomplete="on" target="_blank" method="post" action="https://meusite.com.br/signup">
+        <label>Nome: </label> <input type="text" name="name"><br>
+        <label>Idade: </label> <input type="number" name="age" min="0"><br>
+        <label>Data de Nascimento: </label> <input type="date"><br>
+        <label>E-mail: </label> <input type="email"/><br>
+        <label>Senha: </label> <input type="password" name="password"><br>
+        <label>Sexo: </label>
+            <select name="role">
+                <option value="">selecionar</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select><br>
+        <label>Aceita os termos: </label> <input type="checkbox"><br>
+        <label>Anexar Arquivo:</label> <input type="file"><br>
+        <label>Mensagem</label><br>
+        <textarea rows="10" cols="50" name="messege"></textarea><br>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button><br>
+        <label>Range:</label><input type="range" min="0" max="100" value="50"><br>
+    </form>
+
+    <ul>
+        <li>
+            <a href="index.html">Voltar</a>
+        </li>
+    </ul>
+</body>
+</html>
